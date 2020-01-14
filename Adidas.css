@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+	font-family: Century Gothic;
+	color: white;
+}
+.container {
+	display: block;
+}
+.first-row {
+	background-image: url("./images/background-image.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 700px;
+    display: block;
+}
+.left {
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right {
+	float: right;
+}
+.red_banner {
+	background-color: red;
+	color: white;
+	font-size: 40px;
+	width: 45%;
+	height: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+.second-row {
+	text-align: center;
+	overflow: hidden;
+}
+.products {
+	display: flex;
+	overflow: hidden;
+}
+.photo {
+	margin-right: 0px;
+	flex: 1;
+	overflow-x: hidden;
+}
+.white-stripe {
+	background-color: white;
+	height: 5px;
+	width: 100%;
+	margin-top: 3px;
+}
+.third-row {
+	display: flex;
+	max-height: 300px;
+	margin-top: 10px;
+}
+.left-side {
+	flex: 1;
+}
+.right-side {
+	flex: 1;
+}
+
